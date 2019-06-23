@@ -1,0 +1,17 @@
+:set +t
+:set -package pretty-show -package hscolour
+
+:undef pretty
+:def pretty \ _ -> pure "let colour = putStrLn Prelude.. Language.Haskell.HsColour.hscolour Language.Haskell.HsColour.TTY Language.Haskell.HsColour.Colourise.defaultColourPrefs Prelude.False Prelude.False \"\" Prelude.False Prelude.. Text.Show.Pretty.ppShow\n:set -interactive-print colour"
+
+:undef no-pretty
+:def no-pretty \_ -> pure ":set -interactive-print System.IO.print"
+
+:undef r
+:def r \_ -> pure ":reload\n:pretty"
+
+:seti -fbreak-on-error
+
+:set -Wwarn
+
+:set prompt "\ESC[1;36m\STXλ \ESC[m\STX"
