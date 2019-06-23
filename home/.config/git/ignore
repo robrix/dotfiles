@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# stack
+.stack-work
+
+# cabal
+dist
+dist-newstyle
+.ghc.environment.*
+
+# ghc +RTS
+*.hp
+*.prof
