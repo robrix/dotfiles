@@ -1,0 +1,56 @@
+[user]
+	name = Rob Rix
+	email = rob.rix@me.com
+	signingkey = F188A01508EA1CF7
+
+[core]
+	excludesfile = ~/.config/git/ignore
+	mergeoptions = --no-edit
+	commitGraph = true
+
+[color]
+	ui = auto
+
+[credential]
+	helper = osxkeychain
+
+
+# git commands
+[commit]
+	verbose = true
+	gpgsign = true
+
+[push]
+	default = simple
+
+[pull]
+	rebase = true
+
+[fetch]
+	prune = 1
+
+[tag]
+	sort = -version:refname
+
+[difftool]
+	prompt = false
+
+[mergetool]
+	prompt = false
+	keepBackup = false
+	keepTemporaries = false
+
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+
+
+# github stuff
+[github]
+	user = robrix
+
+[hub]
+	protocol = https
