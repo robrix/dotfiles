@@ -13,3 +13,6 @@ cabal.project.local
 # ghc +RTS
 *.hp
 *.prof
+
+# VS Code
+.vscode
