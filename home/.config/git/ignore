@@ -7,6 +7,7 @@
 # cabal
 dist
 dist-newstyle
+dist-repl
 .ghc.environment.*
 cabal.project.local
 
