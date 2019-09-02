@@ -1,4 +1,3 @@
-:set +t
 :set -package pretty-show -package hscolour -package process
 
 :def! pretty \ _ -> pure "let colour = putStrLn Prelude.. Language.Haskell.HsColour.hscolour Language.Haskell.HsColour.TTY Language.Haskell.HsColour.Colourise.defaultColourPrefs Prelude.False Prelude.False \"\" Prelude.False Prelude.. Text.Show.Pretty.ppShow\n:set -interactive-print colour"
