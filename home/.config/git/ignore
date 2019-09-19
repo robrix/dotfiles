@@ -9,6 +9,7 @@ dist
 dist-newstyle
 dist-repl
 .ghc.environment.*
+.ghci_history
 cabal.project.local
 
 # ghc +RTS
