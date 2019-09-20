@@ -35,8 +35,8 @@ world-file: /Users/rob/.cabal/world
 -- cabal-file:
 -- with-compiler:
 -- with-hc-pkg:
--- program-prefix: 
--- program-suffix: 
+-- program-prefix:
+-- program-suffix:
 -- library-vanilla: True
 -- library-profiling:
 -- shared:
