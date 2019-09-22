@@ -115,7 +115,7 @@ jobs: $ncpus
 -- overwrite-policy:
 -- install-method:
 installdir: /Users/rob/.cabal/bin
--- username:
+username: robrix
 -- password:
 -- password-command:
 -- builddir:
