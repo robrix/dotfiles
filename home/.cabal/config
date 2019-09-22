@@ -117,7 +117,7 @@ jobs: $ncpus
 installdir: /Users/rob/.cabal/bin
 username: robrix
 -- password:
--- password-command:
+password-command: security find-generic-password -a robrix -s hackage -w
 -- builddir:
 
 haddock
