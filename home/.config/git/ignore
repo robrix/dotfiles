@@ -11,6 +11,7 @@ dist-repl
 .ghc.environment.*
 .ghci_history
 cabal.project.local
+cabal.project.local~
 
 # ghc +RTS
 *.hp
