@@ -1,7 +1,7 @@
 [user]
 	name = Rob Rix
 	email = rob.rix@me.com
-	signingkey = F188A01508EA1CF7
+	signingkey = 2BE643E01DC032AE
 
 [core]
 	excludesfile = ~/.config/git/ignore
