@@ -25,8 +25,7 @@ for DOTFILE in *; do
   [ -d $DOTFILE ] && DOTFILE="$DOTFILE/"
   DIRFILE="$DOTFILESDIR/$DOTFILE"
 
-  echo $DOTFILE | egrep -q '(^script/$|\.txt$|\.md$)' && continue
-  echo $DOTFILE | grep -q 'Library' && continue
+  echo $DOTFILE | egrep -q '(^script/$|^Library/$|\.txt$|\.md$)' && continue
   echo $DOTFILE | grep -q 'vscode-settings' &&
        HOMEFILE="$VSCODE/settings.json" &&
        mkdir -p "$VSCODE"
