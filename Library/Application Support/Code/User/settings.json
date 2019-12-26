@@ -124,5 +124,6 @@
     "workbench.editor.focusRecentEditorAfterClose": false,
     "dash.languageIdToDocsetMap.haskell": "hackage",
     "files.hotExit": "onExitAndWindowClose",
-    "workbench.editor.showTabs": true
+    "workbench.editor.showTabs": true,
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish"
 }
