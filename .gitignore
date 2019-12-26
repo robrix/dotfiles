@@ -7,4 +7,5 @@ Brewfile.lock.json
 /gnupg/*.db
 /gnupg/*.gpg
 /gnupg/*.kbx
+/gnupg/*.kbx~
 /gnupg/*.private.*
