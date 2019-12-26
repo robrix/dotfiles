@@ -1,5 +1,6 @@
 brew "fish"
 brew "git"
+brew "jq"
 cask "visual-studio-code"
 
 # fonts
