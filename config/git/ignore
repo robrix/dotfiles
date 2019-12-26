@@ -19,3 +19,6 @@ cabal.project.local~
 
 # VS Code
 .vscode
+
+# brew
+Brewfile.lock.json
