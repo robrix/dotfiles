@@ -1,1 +1,6 @@
 Brewfile.lock.json
+/gnupg/*.d/
+/gnupg/*.db
+/gnupg/*.gpg
+/gnupg/*.kbx
+/gnupg/*.private.*
