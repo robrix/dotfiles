@@ -1,0 +1,128 @@
+{
+    "terminal.integrated.macOptionIsMeta": true,
+    "explorer.sortOrder": "mixed",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 10,
+    "editor.tabSize": 2,
+    "workbench.panel.defaultLocation": "right",
+    "editor.scrollBeyondLastLine": false,
+    "editor.wordWrap": "on",
+    "languageServerHaskell.trace.server": "messages",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": false,
+    "editor.fastScrollSensitivity": 1,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorWidth": 1,
+    "editor.fontLigatures": true,
+    "workbench.commandPalette.preserveInput": true,
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.tips.enabled": false,
+    "workbench.tree.indent": 16,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.closeEmptyGroups": false,
+    "workbench.editor.openPositioning": "last",
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "window.restoreFullscreen": true,
+    "window.restoreWindows": "all",
+    "languageServerHaskell.enableHIE": false,
+    "window.zoomLevel": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.rendererType": "canvas",
+    "editor.roundedSelection": false,
+    "editor.selectionHighlight": false,
+    "editor.emptySelectionClipboard": false,
+    "files.exclude": {
+        "**/.licenses": true,
+        "**/dist": true,
+        "**/dist-newstyle": true,
+        "**/dist-repl": true
+    },
+    "editor.smoothScrolling": true,
+    "editor.occurrencesHighlight": false,
+    "editor.renderLineHighlight": "all",
+    "workbench.editor.highlightModifiedTabs": true,
+    "search.useGlobalIgnoreFiles": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#a0a0a0",
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "constant.other",
+                "settings": {
+                    "foreground": "#ff6e6e",
+                }
+            },
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "fontStyle": ""
+                }
+            },
+            {
+                "scope": "meta.import.qualifier",
+                "settings": {
+                    "foreground": "#ffcb6bff"
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "activityBarBadge.background": "#64FFDA",
+        "list.activeSelectionForeground": "#64FFDA",
+        "list.inactiveSelectionForeground": "#64FFDA",
+        "list.highlightForeground": "#64FFDA",
+        "scrollbarSlider.activeBackground": "#64FFDA50",
+        "editorSuggestWidget.highlightForeground": "#64FFDA",
+        "textLink.foreground": "#64FFDA",
+        "progressBar.background": "#64FFDA",
+        "pickerGroup.foreground": "#64FFDA",
+        "tab.activeBorder": "#64FFDA",
+        "notificationLink.foreground": "#64FFDA",
+        "editorWidget.resizeBorder": "#64FFDA",
+        "editorWidget.border": "#64FFDA",
+        "settings.modifiedItemIndicator": "#64FFDA",
+        "settings.headerForeground": "#64FFDA",
+        "panelTitle.activeBorder": "#64FFDA",
+        "breadcrumb.activeSelectionForeground": "#64FFDA",
+        "menu.selectionForeground": "#64FFDA",
+        "menubar.selectionForeground": "#64FFDA",
+        "editor.findMatchBorder": "#64FFDA",
+        "selection.background": "#64FFDA40",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiRed": "#990000",
+        "terminal.ansiGreen": "#00A600",
+        "terminal.ansiYellow": "#999900",
+        "terminal.ansiBlue": "#2d2dff",
+        "terminal.ansiMagenta": "#B200B2",
+        "terminal.ansiCyan": "#00A6B2",
+        "terminal.ansiWhite": "#BFBFBF",
+        "terminal.ansiBrightBlack": "#666666",
+        "terminal.ansiBrightRed": "#E50000",
+        "terminal.ansiBrightGreen": "#00D900",
+        "terminal.ansiBrightYellow": "#E5E500",
+        "terminal.ansiBrightBlue": "#5252ff",
+        "terminal.ansiBrightMagenta": "#E500E5",
+        "terminal.ansiBrightCyan": "#00E5E5",
+        "terminal.ansiBrightWhite": "#E5E5E5",
+        "terminal.foreground": "#ffffff"
+    },
+    "materialTheme.accent": "Bright Teal",
+    "files.insertFinalNewline": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.fontSize": 10,
+    "workbench.editor.focusRecentEditorAfterClose": false,
+    "dash.languageIdToDocsetMap.haskell": "hackage",
+    "files.hotExit": "onExitAndWindowClose",
+    "workbench.editor.showTabs": true
+}
