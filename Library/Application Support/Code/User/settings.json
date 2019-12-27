@@ -125,5 +125,6 @@
     "dash.languageIdToDocsetMap.haskell": "hackage",
     "files.hotExit": "onExitAndWindowClose",
     "workbench.editor.showTabs": true,
-    "terminal.integrated.shell.osx": "/usr/local/bin/fish"
+    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+    "editor.renderControlCharacters": true
 }
