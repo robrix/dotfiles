@@ -3,6 +3,7 @@ brew "git"
 brew "jq"
 cask "visual-studio-code"
 cask "dash"
+cask "skim"
 
 # fonts
 tap "homebrew/cask-fonts"
