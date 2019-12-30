@@ -126,5 +126,8 @@
     "files.hotExit": "onExitAndWindowClose",
     "workbench.editor.showTabs": true,
     "terminal.integrated.shell.osx": "/usr/local/bin/fish",
-    "editor.renderControlCharacters": true
+    "editor.renderControlCharacters": true,
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.find.globalFindClipboard": true,
+    "editor.find.seedSearchStringFromSelection": false
 }
