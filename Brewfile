@@ -4,6 +4,7 @@ brew "jq"
 
 cask "dash"
 cask "skim"
+cask "slack"
 cask "visual-studio-code"
 
 # fonts
