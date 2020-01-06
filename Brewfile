@@ -1,6 +1,7 @@
 brew "fish"
 brew "git"
 brew "jq"
+
 cask "dash"
 cask "skim"
 cask "visual-studio-code"
