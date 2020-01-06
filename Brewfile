@@ -1,9 +1,9 @@
 brew "fish"
 brew "git"
 brew "jq"
-cask "visual-studio-code"
 cask "dash"
 cask "skim"
+cask "visual-studio-code"
 
 # fonts
 tap "homebrew/cask-fonts"
