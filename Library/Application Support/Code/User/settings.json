@@ -28,7 +28,6 @@
     "languageServerHaskell.enableHIE": false,
     "window.zoomLevel": 0,
     "workbench.activityBar.visible": false,
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "terminal.integrated.rendererType": "canvas",
@@ -129,5 +128,6 @@
     "editor.renderControlCharacters": true,
     "editor.find.addExtraSpaceOnTop": false,
     "editor.find.globalFindClipboard": true,
-    "editor.find.seedSearchStringFromSelection": false
+    "editor.find.seedSearchStringFromSelection": false,
+    "workbench.colorTheme": "Legacy - Material Theme Darker High Contrast"
 }
