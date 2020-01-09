@@ -1,6 +1,7 @@
 brew "fish"
 brew "git"
 brew "jq"
+brew "npm"
 
 cask "dash"
 cask "skim"
