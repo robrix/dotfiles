@@ -15,7 +15,7 @@
     "editor.cursorWidth": 1,
     "editor.fontLigatures": true,
     "workbench.commandPalette.preserveInput": true,
-    "workbench.iconTheme": "vs-minimal",
+    "workbench.iconTheme": "eq-material-theme-icons-darker",
     "workbench.tips.enabled": false,
     "workbench.tree.indent": 16,
     "breadcrumbs.enabled": false,
