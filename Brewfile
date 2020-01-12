@@ -3,6 +3,7 @@ brew "git"
 brew "jq"
 brew "npm"
 
+cask "1password"
 cask "dash"
 cask "skim"
 cask "slack"
