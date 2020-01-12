@@ -129,5 +129,5 @@
     "editor.find.addExtraSpaceOnTop": false,
     "editor.find.globalFindClipboard": true,
     "editor.find.seedSearchStringFromSelection": false,
-    "workbench.colorTheme": "Legacy - Material Theme Darker High Contrast"
+    "workbench.colorTheme": "Material Theme Darker High Contrast"
 }
