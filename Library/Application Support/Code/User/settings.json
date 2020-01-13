@@ -129,5 +129,6 @@
     "editor.find.addExtraSpaceOnTop": false,
     "editor.find.globalFindClipboard": true,
     "editor.find.seedSearchStringFromSelection": false,
-    "workbench.colorTheme": "Material Theme Darker High Contrast"
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "haskell.hlint.run": "onSave"
 }
