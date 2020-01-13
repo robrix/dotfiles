@@ -130,5 +130,6 @@
     "editor.find.globalFindClipboard": true,
     "editor.find.seedSearchStringFromSelection": false,
     "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "haskell.hlint.logLevel": "warn",
     "haskell.hlint.run": "onSave"
 }
