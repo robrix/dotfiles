@@ -1,3 +1,4 @@
+brew "autoconf"
 brew "fish"
 brew "git"
 brew "jq"
