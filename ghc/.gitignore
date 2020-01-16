@@ -1,3 +1,6 @@
+# Ignore arch/platform/version stuff
 */environments
 */package.conf.d
+
+# We don’t want to persist history either
 ghci_history
