@@ -13,7 +13,7 @@
     "editor.fastScrollSensitivity": 1,
     "editor.cursorBlinking": "solid",
     "editor.cursorWidth": 1,
-    "editor.fontLigatures": true,
+    "editor.fontLigatures": "'onum'",
     "workbench.commandPalette.preserveInput": true,
     "workbench.iconTheme": "eq-material-theme-icons-darker",
     "workbench.tips.enabled": false,
