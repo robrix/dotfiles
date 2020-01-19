@@ -1,7 +1,7 @@
 {
     "terminal.integrated.macOptionIsMeta": true,
     "explorer.sortOrder": "mixed",
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "FiraCode-Retina",
     "editor.fontSize": 10,
     "editor.tabSize": 2,
     "workbench.panel.defaultLocation": "right",
