@@ -1,0 +1,12 @@
+/* Google search ads */
+li.ads-ad,
+div#taw,
+div#bottomads,
+div[aria-label=Ads] {
+  display: none;
+}
+
+/* Google “sponsored” rhs column */
+div.commercial-unit-desktop-rhs {
+  display: none;
+}
