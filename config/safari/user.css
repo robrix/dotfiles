@@ -10,3 +10,11 @@ div[aria-label=Ads] {
 div.commercial-unit-desktop-rhs {
   display: none;
 }
+
+/* DuckDuckGo ads */
+div#ads,
+.results--ads,
+.results--ads--main
+.js-results-ads {
+  display: none;
+}
