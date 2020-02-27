@@ -6,6 +6,7 @@ brew "jq"
 brew "npm"
 
 cask "1password"
+cask "blender"
 cask "dash"
 cask "skim"
 cask "skype"
