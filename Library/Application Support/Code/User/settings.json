@@ -132,5 +132,6 @@
     "workbench.colorTheme": "Material Theme Darker High Contrast",
     "haskell.hlint.logLevel": "warn",
     "haskell.hlint.run": "onSave",
-    "extensions.ignoreRecommendations": true
+    "extensions.ignoreRecommendations": true,
+    "git.confirmSync": false
 }
