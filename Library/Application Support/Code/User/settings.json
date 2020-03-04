@@ -133,5 +133,8 @@
     "haskell.hlint.logLevel": "warn",
     "haskell.hlint.run": "onSave",
     "extensions.ignoreRecommendations": true,
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.quickSwitchWindow"
+    ]
 }
