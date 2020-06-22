@@ -129,7 +129,7 @@
     "editor.find.addExtraSpaceOnTop": false,
     "editor.find.globalFindClipboard": true,
     "editor.find.seedSearchStringFromSelection": false,
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.colorTheme": "GitHub Dark",
     "haskell.hlint.logLevel": "warn",
     "haskell.hlint.run": "onSave",
     "extensions.ignoreRecommendations": true,
