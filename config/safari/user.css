@@ -18,3 +18,9 @@ div#ads,
 .js-results-ads {
   display: none;
 }
+
+/* gamepedia ads */
+div[id^=siderail_],
+div[id$=_gamepedia] {
+  display: none;
+}
