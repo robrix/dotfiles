@@ -24,3 +24,7 @@ div[id^=siderail_],
 div[id$=_gamepedia] {
   display: none;
 }
+
+iframe[title*="Campaign" i] {
+  display: none !important;
+}
