@@ -134,6 +134,10 @@
     "haskell.hlint.run": "onSave",
     "extensions.ignoreRecommendations": true,
     "git.confirmSync": false,
+    "haskell.formattingProvider": "stylish-haskell",
+    "[haskell]": {
+        "editor.defaultFormatter": "haskell.haskell"
+    },
     "terminal.integrated.wordSeparators": " ()[]{}',\"`─-.=/:;<>?\\+*&^%$#@!~",
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.quickSwitchWindow"
