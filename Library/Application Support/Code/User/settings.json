@@ -134,6 +134,7 @@
     "haskell.hlint.run": "onSave",
     "extensions.ignoreRecommendations": true,
     "git.confirmSync": false,
+    "terminal.integrated.wordSeparators": " ()[]{}',\"`─-.=/:;<>?\\+*&^%$#@!~",
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.quickSwitchWindow"
     ],
