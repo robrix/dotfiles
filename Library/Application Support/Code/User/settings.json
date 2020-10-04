@@ -2,7 +2,6 @@
     "terminal.integrated.macOptionIsMeta": true,
     "explorer.sortOrder": "mixed",
     "editor.fontFamily": "FiraCode-Retina",
-    "editor.fontSize": 9,
     "editor.tabSize": 2,
     "workbench.panel.defaultLocation": "right",
     "editor.scrollBeyondLastLine": false,
@@ -119,7 +118,6 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "terminal.integrated.scrollback": 10000,
-    "terminal.integrated.fontSize": 9,
     "workbench.editor.focusRecentEditorAfterClose": false,
     "dash.languageIdToDocsetMap.haskell": "hackage",
     "files.hotExit": "onExitAndWindowClose",
@@ -138,6 +136,8 @@
     "[haskell]": {
         "editor.defaultFormatter": "haskell.haskell"
     },
+    "editor.fontSize": 9,
+    "terminal.integrated.fontSize": 9,
     "terminal.integrated.wordSeparators": " ()[]{}',\"`─-.=/:;<>?\\+*&^%$#@!~",
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.quickSwitchWindow"
