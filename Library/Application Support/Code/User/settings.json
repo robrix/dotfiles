@@ -139,5 +139,6 @@
         "workbench.action.quickSwitchWindow"
     ],
     "terminal.integrated.confirmOnExit": true,
-    "outline.showModules": false
+    "outline.showModules": false,
+    "terminal.integrated.experimentalUseTitleEvent": true
 }
