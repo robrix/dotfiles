@@ -301,7 +301,8 @@
   },
   {
     "key": "ctrl+backspace",
-    "command": "bracketeer.removeBrackets"
+    "command": "bracketeer.removeBrackets",
+    "when": "editorTextFocus"
   },
   {
     "key": "shift+alt+cmd+i",
