@@ -686,5 +686,25 @@
     "command": "workbench.action.terminal.sendSequence",
     "args": { "text": "\u001b\u007f" },
     "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "editor.action.marker.nextInFiles",
+    "when": "editorFocus"
+  },
+  {
+    "key": "f8",
+    "command": "-editor.action.marker.nextInFiles",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "editor.action.marker.prevInFiles",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+f8",
+    "command": "-editor.action.marker.prevInFiles",
+    "when": "editorFocus"
   }
 ]
