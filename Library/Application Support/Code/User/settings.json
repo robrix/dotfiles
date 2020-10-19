@@ -148,6 +148,7 @@
     "terminal.integrated.confirmOnExit": true,
     "outline.showModules": false,
     "terminal.integrated.experimentalUseTitleEvent": true,
+    "editor.codeLens": false,
     "workbench.editor.pinnedTabSizing": "compact",
     "editor.quickSuggestions": true,
     "editor.suggest.insertMode": "replace",
