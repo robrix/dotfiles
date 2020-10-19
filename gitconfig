@@ -54,3 +54,5 @@
 
 [hub]
 	protocol = https
+[merge]
+	conflictstyle = diff3
