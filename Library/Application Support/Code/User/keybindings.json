@@ -706,5 +706,14 @@
     "key": "shift+f8",
     "command": "-editor.action.marker.prevInFiles",
     "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+enter",
+    "command": "-editor.action.insertLineBefore",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+enter",
+    "command": "editor.action.showHover"
   }
 ]
