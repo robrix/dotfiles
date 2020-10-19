@@ -74,6 +74,10 @@
         ]
     },
     "workbench.colorCustomizations": {
+        "[GitHub Dark]": {
+            "editor.background": "#181b1f",
+            "terminal.background": "#181b1f",
+        },
         "activityBarBadge.background": "#64FFDA",
         "list.activeSelectionForeground": "#64FFDA",
         "list.inactiveSelectionForeground": "#64FFDA",
