@@ -127,7 +127,6 @@
     "editor.find.addExtraSpaceOnTop": false,
     "editor.find.globalFindClipboard": true,
     "editor.find.seedSearchStringFromSelection": false,
-    "workbench.colorTheme": "GitHub Dark",
     "haskell.hlint.logLevel": "warn",
     "haskell.hlint.run": "onSave",
     "extensions.ignoreRecommendations": true,
@@ -144,5 +143,6 @@
     ],
     "terminal.integrated.confirmOnExit": true,
     "outline.showModules": false,
-    "terminal.integrated.experimentalUseTitleEvent": true
+    "terminal.integrated.experimentalUseTitleEvent": true,
+    "workbench.colorTheme": "GitHub Dark"
 }
