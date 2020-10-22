@@ -4,7 +4,7 @@ div#taw,
 div#bottomads,
 div[aria-label=Ads],
 div[aria-label="Timeline: Trending now"],
-div[aria-label="Who to follow"] {
+aside[aria-label="Who to follow"] {
   display: none !important;
 }
 
