@@ -2,8 +2,9 @@
 li.ads-ad,
 div#taw,
 div#bottomads,
-div[aria-label=Ads] {
-  display: none;
+div[aria-label=Ads],
+div[aria-label="Timeline: Trending now"] {
+  display: none !important;
 }
 
 /* Google “sponsored” rhs column */
