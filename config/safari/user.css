@@ -27,6 +27,7 @@ div[id$=_gamepedia] {
   display: none;
 }
 
-iframe[title*="Campaign" i] {
+iframe[title*="Campaign" i],
+iframe[data-embeddedads*="true" i] {
   display: none !important;
 }
