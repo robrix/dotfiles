@@ -1,410 +1,111 @@
 {
-// module pragmas
-	"LANGUAGE pragma":
-	{ "prefix": "LANGUAGE"
-	, "body": [ "{-# LANGUAGE $0 #-}" ]
+	// module pragmas
+	"LANGUAGE pragma": {
+		"prefix": "LANGUAGE",
+		"body": [
+			"{-# LANGUAGE $0 #-}"
+		]
+	},
+	"OPTIONS_GHC pragma": {
+		"prefix": "OPTIONS_GHC",
+		"body": [
+			"{-# OPTIONS_GHC $0 #-}"
+		]
+	}
+	// warning pragmas
+	,
+	"DEPRECATED pragma": {
+		"prefix": "DEPRECATED",
+		"body": [
+			"{-# DEPRECATED $0 #-}"
+		]
+	},
+	"WARNING pragma": {
+		"prefix": "WARNING",
+		"body": [
+			"{-# WARNING $0 #-}"
+		]
+	}
+	// inlining pragmas
+	,
+	"INLINABLE pragma": {
+		"prefix": "INLINABLE",
+		"body": [
+			"{-# INLINABLE $0 #-}"
+		]
+	},
+	"INLINE pragma": {
+		"prefix": "INLINE",
+		"body": [
+			"{-# INLINE $0 #-}"
+		]
+	},
+	"NOINLINE pragma": {
+		"prefix": "NOINLINE",
+		"body": [
+			"{-# NOINLINE $0 #-}"
+		]
+	},
+	"RULES pragma": {
+		"prefix": "RULES",
+		"body": [
+			"{-# RULES $0 #-}"
+		]
+	},
+	"SPECIALIZE pragma": {
+		"prefix": "SPECIALIZE",
+		"body": [
+			"{-# SPECIALIZE ${1:name} :: ${2:type} #-}"
+		]
+	}
+	// instance resolution pragmas
+	,
+	"OVERLAPPABLE pragma": {
+		"prefix": "OVERLAPPABLE",
+		"body": [
+			"{-# OVERLAPPABLE #-}"
+		]
+	},
+	"OVERLAPPING pragma": {
+		"prefix": "OVERLAPPING",
+		"body": [
+			"{-# OVERLAPPING #-}"
+		]
+	},
+	"OVERLAPS pragma": {
+		"prefix": "OVERLAPS",
+		"body": [
+			"{-# OVERLAPS #-}"
+		]
+	},
+	"MINIMAL pragma": {
+		"prefix": "MINIMAL",
+		"body": [
+			"{-# MINIMAL $0 #-}"
+		]
+	},
+	"SPECIALIZE instance pragma": {
+		"prefix": "SPECIALIZE instance",
+		"body": [
+			"{-# SPECIALIZE instance $0 #-}"
+		]
+	},
+	"UNPACK pragma": {
+		"prefix": "UNPACK",
+		"body": [
+			"{-# UNPACK #-}"
+		]
+	},
+	"SOURCE pragma": {
+		"prefix": "SOURCE",
+		"body": [
+			"{-# SOURCE #-}"
+		]
+	},
+	"COMPLETE pragma": {
+		"prefix": "COMPLETE",
+		"body": [
+			"{-# COMPLETE $0 #-}"
+		]
 	}
-, "OPTIONS_GHC pragma":
-	{ "prefix": "OPTIONS_GHC"
-	, "body": [ "{-# OPTIONS_GHC $0 #-}" ]
-	}
-
-// warning pragmas
-, "DEPRECATED pragma":
-	{ "prefix": "DEPRECATED"
-	, "body": [ "{-# DEPRECATED $0 #-}" ]
-	}
-, "WARNING pragma":
-	{ "prefix": "WARNING"
-	, "body": [ "{-# WARNING $0 #-}" ]
-	}
-
-// inlining pragmas
-, "INLINABLE pragma":
-	{ "prefix": "INLINABLE"
-	, "body": [ "{-# INLINABLE $0 #-}" ]
-	}
-, "INLINE pragma":
-	{ "prefix": "INLINE"
-	, "body": [ "{-# INLINE $0 #-}" ]
-	}
-, "NOINLINE pragma":
-	{ "prefix": "NOINLINE"
-	, "body": [ "{-# NOINLINE $0 #-}" ]
-	}
-
-, "RULES pragma":
-	{ "prefix": "RULES"
-	, "body": [ "{-# RULES $0 #-}" ]
-	}
-, "SPECIALIZE pragma":
-	{ "prefix": "SPECIALIZE"
-	, "body": [ "{-# SPECIALIZE ${1:name} :: ${2:type} #-}" ]
-	}
-
-// instance resolution pragmas
-, "INCOHERENT pragma":
-	{ "prefix": "INCOHERENT"
-	, "body": [ "{-# INCOHERENT #-}" ]
-	}
-, "OVERLAPPABLE pragma":
-	{ "prefix": "OVERLAPPABLE"
-	, "body": [ "{-# OVERLAPPABLE #-}" ]
-	}
-, "OVERLAPPING pragma":
-	{ "prefix": "OVERLAPPING"
-	, "body": [ "{-# OVERLAPPING #-}" ]
-	}
-, "OVERLAPS pragma":
-	{ "prefix": "OVERLAPS"
-	, "body": [ "{-# OVERLAPS #-}" ]
-	}
-
-, "MINIMAL pragma":
-	{ "prefix": "MINIMAL"
-	, "body": [ "{-# MINIMAL $0 #-}" ]
-	}
-, "SPECIALIZE instance pragma":
-	{ "prefix": "SPECIALIZE instance"
-	, "body": [ "{-# SPECIALIZE instance $0 #-}" ]
-	}
-
-, "UNPACK pragma":
-	{ "prefix": "UNPACK"
-	, "body": [ "{-# UNPACK #-}" ]
-	}
-
-, "SOURCE pragma":
-	{ "prefix": "SOURCE"
-	, "body": [ "{-# SOURCE #-}" ]
-	}
-
-, "COMPLETE pragma":
-	{ "prefix": "COMPLETE"
-	, "body": [ "{-# COMPLETE $0 #-}" ]
-	}
-
-// LANGUAGE extensions
-, "AllowAmbiguousTypes":
-	{ "prefix": "AllowAmbiguousTypes"
-	, "body": ["AllowAmbiguousTypes"]
-	}
-, "ApplicativeDo":
-	{ "prefix": "ApplicativeDo"
-	, "body": ["ApplicativeDo"]
-	}
-, "Arrows":
-	{ "prefix": "Arrows"
-	, "body": ["Arrows"]
-	}
-, "BangPatterns":
-	{ "prefix": "BangPatterns"
-	, "body": ["BangPatterns"]
-	}
-, "ConstraintKinds":
-	{ "prefix": "ConstraintKinds"
-	, "body": ["ConstraintKinds"]
-	}
-, "DataKinds":
-	{ "prefix": "DataKinds"
-	, "body": ["DataKinds"]
-	}
-, "DefaultSignatures":
-	{ "prefix": "DefaultSignatures"
-	, "body": ["DefaultSignatures"]
-	}
-, "DeriveAnyClass":
-	{ "prefix": "DeriveAnyClass"
-	, "body": ["DeriveAnyClass"]
-	}
-, "DeriveDataTypeable":
-	{ "prefix": "DeriveDataTypeable"
-	, "body": ["DeriveDataTypeable"]
-	}
-, "DeriveFoldable":
-	{ "prefix": "DeriveFoldable"
-	, "body": ["DeriveFoldable"]
-	}
-, "DeriveFunctor":
-	{ "prefix": "DeriveFunctor"
-	, "body": ["DeriveFunctor"]
-	}
-, "DeriveGeneric":
-	{ "prefix": "DeriveGeneric"
-	, "body": ["DeriveGeneric"]
-	}
-, "DeriveLift":
-	{ "prefix": "DeriveLift"
-	, "body": ["DeriveLift"]
-	}
-, "DeriveTraversable":
-	{ "prefix": "DeriveTraversable"
-	, "body": ["DeriveTraversable"]
-	}
-, "DerivingStrategies":
-	{ "prefix": "DerivingStrategies"
-	, "body": ["DerivingStrategies"]
-	}
-, "DerivingVia":
-	{ "prefix": "DerivingVia"
-	, "body": ["DerivingVia"]
-	}
-, "DisambiguateRecordFields":
-	{ "prefix": "DisambiguateRecordFields"
-	, "body": ["DisambiguateRecordFields"]
-	}
-, "DuplicateRecordFields":
-	{ "prefix": "DuplicateRecordFields"
-	, "body": ["DuplicateRecordFields"]
-	}
-, "EmptyCase":
-	{ "prefix": "EmptyCase"
-	, "body": ["EmptyCase"]
-	}
-, "EmptyDataDeriving":
-	{ "prefix": "EmptyDataDeriving"
-	, "body": ["EmptyDataDeriving"]
-	}
-, "ExistentialQuantification":
-	{ "prefix": "ExistentialQuantification"
-	, "body": ["ExistentialQuantification"]
-	}
-, "ExplicitForAll":
-	{ "prefix": "ExplicitForAll"
-	, "body": ["ExplicitForAll"]
-	}
-, "ExplicitNamespaces":
-	{ "prefix": "ExplicitNamespaces"
-	, "body": ["ExplicitNamespaces"]
-	}
-, "FlexibleContexts":
-	{ "prefix": "FlexibleContexts"
-	, "body": ["FlexibleContexts"]
-	}
-, "FlexibleInstances":
-	{ "prefix": "FlexibleInstances"
-	, "body": ["FlexibleInstances"]
-	}
-, "FunctionalDependencies":
-	{ "prefix": "FunctionalDependencies"
-	, "body": ["FunctionalDependencies"]
-	}
-, "GADTs":
-	{ "prefix": "GADTs"
-	, "body": ["GADTs"]
-	}
-, "GeneralizedNewtypeDeriving":
-	{ "prefix": "GeneralizedNewtypeDeriving"
-	, "body": ["GeneralizedNewtypeDeriving"]
-	}
-, "ImplicitParams":
-	{ "prefix": "ImplicitParams"
-	, "body": ["ImplicitParams"]
-	}
-, "InstanceSigs":
-	{ "prefix": "InstanceSigs"
-	, "body": ["InstanceSigs"]
-	}
-, "KindSignatures":
-	{ "prefix": "KindSignatures"
-	, "body": ["KindSignatures"]
-	}
-, "LambdaCase":
-	{ "prefix": "LambdaCase"
-	, "body": ["LambdaCase"]
-	}
-, "MagicHash":
-	{ "prefix": "MagicHash"
-	, "body": ["MagicHash"]
-	}
-, "MonadComprehensions":
-	{ "prefix": "MonadComprehensions"
-	, "body": ["MonadComprehensions"]
-	}
-, "MultiParamTypeClasses":
-	{ "prefix": "MultiParamTypeClasses"
-	, "body": ["MultiParamTypeClasses"]
-	}
-, "MultiWayIf":
-	{ "prefix": "MultiWayIf"
-	, "body": ["MultiWayIf"]
-	}
-, "NamedFieldPuns":
-	{ "prefix": "NamedFieldPuns"
-	, "body": ["NamedFieldPuns"]
-	}
-, "NoStarIsType":
-	{ "prefix": "NoStarIsType"
-	, "body": ["NoStarIsType"]
-	}
-, "NoStrict":
-	{ "prefix": "NoStrict"
-	, "body": ["NoStrict"]
-	}
-, "NoStrictData":
-	{ "prefix": "NoStrictData"
-	, "body": ["NoStrictData"]
-	}
-, "OverloadedLabels":
-	{ "prefix": "OverloadedLabels"
-	, "body": ["OverloadedLabels"]
-	}
-, "OverloadedLists":
-	{ "prefix": "OverloadedLists"
-	, "body": ["OverloadedLists"]
-	}
-, "OverloadedStrings":
-	{ "prefix": "OverloadedStrings"
-	, "body": ["OverloadedStrings"]
-	}
-, "PackageImports":
-	{ "prefix": "PackageImports"
-	, "body": ["PackageImports"]
-	}
-, "ParallelListComp":
-	{ "prefix": "ParallelListComp"
-	, "body": ["ParallelListComp"]
-	}
-, "PartialTypeSignatures":
-	{ "prefix": "PartialTypeSignatures"
-	, "body": ["PartialTypeSignatures"]
-	}
-, "PatternSynonyms":
-	{ "prefix": "PatternSynonyms"
-	, "body": ["PatternSynonyms"]
-	}
-, "PolyKinds":
-	{ "prefix": "PolyKinds"
-	, "body": ["PolyKinds"]
-	}
-, "QuantifiedConstraints":
-	{ "prefix": "QuantifiedConstraints"
-	, "body": ["QuantifiedConstraints"]
-	}
-, "QuasiQuotes":
-	{ "prefix": "QuasiQuotes"
-	, "body": ["QuasiQuotes"]
-	}
-, "RankNTypes":
-	{ "prefix": "RankNTypes"
-	, "body": ["RankNTypes"]
-	}
-, "RebindableSyntax":
-	{ "prefix": "RebindableSyntax"
-	, "body": ["RebindableSyntax"]
-	}
-, "RecordWildCards":
-	{ "prefix": "RecordWildCards"
-	, "body": ["RecordWildCards"]
-	}
-, "RecursiveDo":
-	{ "prefix": "RecursiveDo"
-	, "body": ["RecursiveDo"]
-	}
-, "RoleAnnotations":
-	{ "prefix": "RoleAnnotations"
-	, "body": ["RoleAnnotations"]
-	}
-, "Safe":
-	{ "prefix": "Safe"
-	, "body": ["Safe"]
-	}
-, "ScopedTypeVariables":
-	{ "prefix": "ScopedTypeVariables"
-	, "body": ["ScopedTypeVariables"]
-	}
-, "StandaloneDeriving":
-	{ "prefix": "StandaloneDeriving"
-	, "body": ["StandaloneDeriving"]
-	}
-, "StarIsType":
-	{ "prefix": "StarIsType"
-	, "body": ["StarIsType"]
-	}
-, "StaticPointers":
-	{ "prefix": "StaticPointers"
-	, "body": ["StaticPointers"]
-	}
-, "Strict":
-	{ "prefix": "Strict"
-	, "body": ["Strict"]
-	}
-, "StrictData":
-	{ "prefix": "StrictData"
-	, "body": ["StrictData"]
-	}
-, "TemplateHaskell":
-	{ "prefix": "TemplateHaskell"
-	, "body": ["TemplateHaskell"]
-	}
-, "TemplateHaskellQuotes":
-	{ "prefix": "TemplateHaskellQuotes"
-	, "body": ["TemplateHaskellQuotes"]
-	}
-, "TransformListComp":
-	{ "prefix": "TransformListComp"
-	, "body": ["TransformListComp"]
-	}
-, "Trustworthy":
-	{ "prefix": "Trustworthy"
-	, "body": ["Trustworthy"]
-	}
-, "TupleSections":
-	{ "prefix": "TupleSections"
-	, "body": ["TupleSections"]
-	}
-, "TypeApplications":
-	{ "prefix": "TypeApplications"
-	, "body": ["TypeApplications"]
-	}
-, "TypeFamilies":
-	{ "prefix": "TypeFamilies"
-	, "body": ["TypeFamilies"]
-	}
-, "TypeFamilyDependencies":
-	{ "prefix": "TypeFamilyDependencies"
-	, "body": ["TypeFamilyDependencies"]
-	}
-, "TypeOperators":
-	{ "prefix": "TypeOperators"
-	, "body": ["TypeOperators"]
-	}
-, "UnboxedSums":
-	{ "prefix": "UnboxedSums"
-	, "body": ["UnboxedSums"]
-	}
-, "UnboxedTuples":
-	{ "prefix": "UnboxedTuples"
-	, "body": ["UnboxedTuples"]
-	}
-, "UndecidableInstances":
-	{ "prefix": "UndecidableInstances"
-	, "body": ["UndecidableInstances"]
-	}
-, "UndecidableSuperClasses":
-	{ "prefix": "UndecidableSuperClasses"
-	, "body": ["UndecidableSuperClasses"]
-	}
-, "UnicodeSyntax":
-	{ "prefix": "UnicodeSyntax"
-	, "body": ["UnicodeSyntax"]
-	}
-, "ViewPatterns":
-	{ "prefix": "ViewPatterns"
-	, "body": ["ViewPatterns"]
-	}
-	// Place your snippets for haskell here. Each snippet is defined under a snippet name and has a prefix, body and
-	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
-	// same ids are connected.
-	// Example:
-	// "Print to console": {
-	// 	"prefix": "log",
-	// 	"body": [
-	// 		"console.log('$1');",
-	// 		"$2"
-	// 	],
-	// 	"description": "Log output to console"
-	// }
-
 }
