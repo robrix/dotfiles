@@ -12,7 +12,7 @@ cask "skim"
 cask "skype"
 cask "slack"
 cask "visual-studio-code"
-cask "zoomus"
+cask "zoom"
 
 # fonts
 tap "homebrew/cask-fonts"
