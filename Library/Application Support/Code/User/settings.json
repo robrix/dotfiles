@@ -37,7 +37,8 @@
         "**/.licenses": true,
         "**/dist": true,
         "**/dist-newstyle": true,
-        "**/dist-repl": true
+        "**/dist-repl": true,
+        "semantic/test/fixtures/**": true
     },
     "editor.smoothScrolling": true,
     "editor.occurrencesHighlight": false,
