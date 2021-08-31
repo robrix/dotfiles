@@ -139,8 +139,8 @@
     "[haskell]": {
         "editor.defaultFormatter": "haskell.haskell"
     },
-    "editor.fontSize": 9,
-    "terminal.integrated.fontSize": 9,
+    "editor.fontSize": 10,
+    "terminal.integrated.fontSize": 10,
     "terminal.integrated.wordSeparators": " ()[]{}',\"`─-.=/:;<>?\\+*&^%$#@!~",
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.quickSwitchWindow"
