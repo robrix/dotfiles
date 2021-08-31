@@ -684,7 +684,9 @@
   {
     "key": "alt+backspace",
     "command": "workbench.action.terminal.sendSequence",
-    "args": { "text": "\u001b\u007f" },
+    "args": {
+      "text": "\u001b\u007f"
+    },
     "when": "terminalFocus"
   },
   {
