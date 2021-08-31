@@ -130,7 +130,7 @@
     "editor.renderControlCharacters": true,
     "editor.find.addExtraSpaceOnTop": false,
     "editor.find.globalFindClipboard": true,
-    "editor.find.seedSearchStringFromSelection": false,
+    "editor.find.seedSearchStringFromSelection": "never",
     "haskell.hlint.logLevel": "warn",
     "haskell.hlint.run": "onSave",
     "extensions.ignoreRecommendations": true,
