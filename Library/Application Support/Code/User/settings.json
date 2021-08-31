@@ -150,9 +150,21 @@
     "terminal.integrated.experimentalUseTitleEvent": true,
     "workbench.editor.pinnedTabSizing": "compact",
     "editor.formatOnSave": true,
-    "editor.quickSuggestions": true,
     "editor.suggest.insertMode": "replace",
-    "editor.suggest.maxVisibleSuggestions": 15,
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    "workbench.colorTheme": "GitHub Dark"
+    "workbench.colorTheme": "GitHub Dark",
+    "errorLens.scrollbarHackEnabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.linkedEditing": true,
+    "html.format.wrapLineLength": 0,
+    "html.format.enable": false,
+    "emmet.showSuggestionsAsSnippets": true,
+    "extensions.supportUntrustedWorkspaces": {
+        "haskell.haskell": {
+            "supported": true,
+            "version": "1.6.0"
+        },
+    },
+    "extensions.closeExtensionDetailsOnViewChange": true,
+    "editor.suggest.showStatusBar": true
 }
