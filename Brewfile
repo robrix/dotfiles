@@ -4,6 +4,7 @@ brew "fish"
 brew "git"
 brew "jq"
 brew "npm"
+brew "gh"
 
 cask "1password"
 cask "blender"
