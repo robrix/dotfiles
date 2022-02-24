@@ -32,7 +32,7 @@
   {
     "key": "alt+cmd+left",
     "command": "workbench.action.focusSecondEditorGroup",
-    "when": "panelFocus"
+    "when": "auxiliaryBarFocus"
   },
   {
     "key": "alt+cmd+right",
@@ -46,7 +46,12 @@
   {
     "key": "alt+cmd+right",
     "command": "workbench.action.focusSecondEditorGroup",
-    "when": "editorFocus"
+    "when": "activeEditorGroupIndex == 1"
+  },
+  {
+    "key": "alt+cmd+right",
+    "command": "workbench.action.focusAuxiliaryBar",
+    "when": "activeEditorGroupLast"
   },
   {
     "key": "cmd+k cmd+right",
@@ -68,7 +73,7 @@
   },
   {
     "key": "alt+cmd+3",
-    "command": "workbench.action.focusPanel"
+    "command": "workbench.action.focusAuxiliaryBar"
   },
   {
     "key": "cmd+0",
@@ -736,5 +741,13 @@
     "key": "alt+[",
     "command": "-editor.action.inlineSuggest.showPrevious",
     "when": "!editorReadonly"
+  },
+  {
+    "key": "cmd+j",
+    "command": "-workbench.action.togglePanel"
+  },
+  {
+    "key": "cmd+j",
+    "command": "workbench.action.toggleAuxiliaryBar"
   }
 ]
