@@ -10,6 +10,7 @@ function fish_prompt
 	set suffix '❱'
 
 	set_color -b $colour
+	set_color -o fff
 	printf "%*s\r%s\n" (tput cols) (__fish_git_prompt) (prompt_pwd)
 	set_color -b normal
 	set_color $colour
