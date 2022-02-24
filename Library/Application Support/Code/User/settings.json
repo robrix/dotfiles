@@ -3,7 +3,6 @@
     "explorer.sortOrder": "mixed",
     "editor.fontFamily": "FiraCode-Retina",
     "editor.tabSize": 2,
-    "workbench.panel.defaultLocation": "right",
     "editor.scrollBeyondLastLine": false,
     "editor.wordWrap": "on",
     "languageServerHaskell.trace.server": "messages",
@@ -11,7 +10,7 @@
     "editor.minimap.enabled": false,
     "editor.fastScrollSensitivity": 1,
     "editor.cursorBlinking": "solid",
-    "editor.cursorWidth": 1,
+    "editor.cursorWidth": 2,
     "editor.fontLigatures": "'onum'",
     "workbench.commandPalette.preserveInput": true,
     "workbench.iconTheme": "eq-material-theme-icons-darker",
@@ -107,7 +106,7 @@
         "terminal.ansiBlue": "#2d2dff",
         "terminal.ansiMagenta": "#B200B2",
         "terminal.ansiCyan": "#00A6B2",
-        "terminal.ansiWhite": "#BFBFBF",
+        "terminal.ansiWhite": "#e5e5e5",
         "terminal.ansiBrightBlack": "#666666",
         "terminal.ansiBrightRed": "#E50000",
         "terminal.ansiBrightGreen": "#00D900",
@@ -115,10 +114,9 @@
         "terminal.ansiBrightBlue": "#5252ff",
         "terminal.ansiBrightMagenta": "#E500E5",
         "terminal.ansiBrightCyan": "#00E5E5",
-        "terminal.ansiBrightWhite": "#E5E5E5",
-        "terminal.foreground": "#ffffff"
+        "terminal.ansiBrightWhite": "#ffffff"
     },
-    "materialTheme.accent": "Bright Teal",
+    "materialTheme.accent": "Teal",
     "files.insertFinalNewline": true,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -127,7 +125,6 @@
     "dash.languageIdToDocsetMap.haskell": "hackage",
     "files.hotExit": "onExitAndWindowClose",
     "workbench.editor.showTabs": true,
-    "terminal.integrated.shell.osx": "/usr/local/bin/fish",
     "editor.renderControlCharacters": true,
     "editor.find.addExtraSpaceOnTop": false,
     "editor.find.globalFindClipboard": true,
@@ -140,8 +137,6 @@
     "[haskell]": {
         "editor.defaultFormatter": "haskell.haskell"
     },
-    "editor.fontSize": 10,
-    "terminal.integrated.fontSize": 10,
     "terminal.integrated.wordSeparators": " ()[]{}',\"`─-.=/:;<>?\\+*&^%$#@!~",
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.quickSwitchWindow"
@@ -152,7 +147,6 @@
     "editor.formatOnSave": true,
     "editor.suggest.insertMode": "replace",
     "editor.suggestSelection": "recentlyUsedByPrefix",
-    "workbench.colorTheme": "GitHub Dark",
     "errorLens.scrollbarHackEnabled": true,
     "security.workspace.trust.untrustedFiles": "open",
     "editor.linkedEditing": true,
@@ -166,5 +160,20 @@
         },
     },
     "extensions.closeExtensionDetailsOnViewChange": true,
-    "editor.suggest.showStatusBar": true
+    "editor.suggest.showStatusBar": true,
+    "editor.accessibilitySupport": "off",
+    "terminal.integrated.profiles.osx": {
+        "ghc": {
+            "path": "/usr/local/bin/fish",
+            "args": []
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "ghc",
+    "window.autoDetectColorScheme": true,
+    "editor.cursorSurroundingLines": 1,
+    "terminal.integrated.cursorWidth": 2,
+    "problems.sortOrder": "position",
+    "problems.showCurrentInStatus": true,
+    "errorLens.delay": 500,
+    "terminal.integrated.tabs.enabled": false
 }
